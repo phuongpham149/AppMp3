@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppMp3</string>
+    <string name="textview_splash_title">Music Mp3</string>
+    <string name="menu_main_search">Search</string>
+    <string name="menu_main_alarm">Alarm</string>
+    <string name="toolbar_title">Songs</string>
+
+    <string-array name="title_menu">
+        <item>Home</item>
+        <item>Feedback</item>
+        <item>About</item>
+    </string-array>
+</resources>

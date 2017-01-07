@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="splash_background">#403E41</color>
+    <color name="textview_splash">#FF7F08</color>
+    <color name="tab_indicator">#FF7F08</color>
+    <color name="item_menu_content_background">#FF7F08</color>
+    <color name="view_item_content_background">#FFFF4E08</color>
+    <color name="tab_home_background">#2C2D2F</color>
+    <color name="tab_home_indicator">#D34519</color>
+    <color name="frame_home_background">#403E41</color>
+</resources>
