@@ -1,4 +1,4 @@
-package com.example.phuong.appmp3.avtivities;
+package com.example.phuong.appmp3.activities;
 
 import android.support.v7.app.AppCompatActivity;
 

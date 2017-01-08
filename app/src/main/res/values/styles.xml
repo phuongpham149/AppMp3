@@ -7,5 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="textview_item_music">
+        <item name="android:padding">@dimen/textview_item_music_padding</item>
+        <item name="android:textSize">@dimen/textview_item_music_size</item>
+    </style>
 </resources>

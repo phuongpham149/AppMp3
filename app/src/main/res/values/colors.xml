@@ -12,4 +12,7 @@
     <color name="tab_home_background">#2C2D2F</color>
     <color name="tab_home_indicator">#D34519</color>
     <color name="frame_home_background">#403E41</color>
+    <color name="recyclerView_online_background">#403E41</color>
+    <color name="item_music_background">#2E2C2F</color>
+    <color name="textview_name_song_item_music">#FF7F08</color>
 </resources>

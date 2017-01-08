@@ -1,4 +1,4 @@
-package com.example.phuong.appmp3.avtivities;
+package com.example.phuong.appmp3.activities;
 
 import android.graphics.Color;
 import android.support.v4.widget.DrawerLayout;
@@ -49,7 +49,7 @@ public class MainActivity extends BaseActivity implements ItemMenuClickListener 
         getSupportActionBar().setTitle(getResources().getString(R.string.toolbar_title));
         mToolbar.setTitleTextColor(Color.WHITE);
         initMenu();
-        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.app_name, R.string.app_name) {
+        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, mToolbar, R.string.app_name, R.string.app_name) {
             public void onDrawerClosed(View view) {
                 super.onDrawerClosed(view);
                 invalidateOptionsMenu();
@@ -90,13 +90,13 @@ public class MainActivity extends BaseActivity implements ItemMenuClickListener 
 
     public void displayView(int position) {
         switch (position) {
-            case 0:
+            case 1:
                 getSupportFragmentManager().beginTransaction().replace(R.id.frContainer, HomeFragment_.builder().build()).commit();
                 mDrawerLayout.closeDrawer(Gravity.LEFT);
                 break;
-            case 1:
-                break;
             case 2:
+                break;
+            case 3:
                 break;
         }
     }
