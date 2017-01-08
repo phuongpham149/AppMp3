@@ -2,7 +2,6 @@ package com.example.phuong.appmp3.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -86,6 +85,13 @@ public class MenuMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             super(itemView);
             mImgIcon = (ImageView) itemView.findViewById(R.id.imgIcon);
             mTvTitle = (TextView) itemView.findViewById(R.id.tvTitle);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    mListener.itemClick(getAdapterPosition());
+                }
+            });
         }
     }
 
@@ -95,6 +101,14 @@ public class MenuMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         public HeaderHolder(View itemView) {
             super(itemView);
             mImvHeader = (ImageView) itemView.findViewById(R.id.imgIcon);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    mListener.itemClick(getAdapterPosition());
+                }
+            });
+
         }
     }
 }

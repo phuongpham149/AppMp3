@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview_online="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_online"
+    cardview_online:cardCornerRadius="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgMucsic"
+            android:layout_width="@dimen/img_item_music_width"
+            android:layout_height="@dimen/img_item_music_height"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/imageview_item_music_online_margin"
+            android:src="@drawable/ic_music_record_filled" />
+
+        <TextView
+            android:id="@+id/tvNameSong"
+            style="@style/textview_item_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/textview_name_song_item_music"
+            android:layout_marginStart="@dimen/textview_name_song_item_music"
+            android:layout_toEndOf="@+id/imgMucsic"
+            android:layout_toRightOf="@+id/imgMucsic"
+            android:textColor="@color/textview_name_song_item_music" />
+
+        <TextView
+            android:id="@+id/tvSinger"
+            style="@style/textview_item_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNameSong"
+            android:layout_marginLeft="@dimen/textview_name_song_item_music"
+            android:layout_marginStart="@dimen/textview_name_song_item_music"
+            android:layout_toEndOf="@+id/imgMucsic"
+            android:layout_toRightOf="@+id/imgMucsic"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvDuration"
+            style="@style/textview_item_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/textview_duration_item_music_margin_right"
+            android:layout_marginRight="@dimen/textview_duration_item_music_margin_right"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

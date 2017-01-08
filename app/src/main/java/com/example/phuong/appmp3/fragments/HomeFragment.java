@@ -20,18 +20,17 @@ public class HomeFragment extends BaseFragment {
 
     @Override
     void inits() {
-        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frContainer, OnlineFragment_.builder().build()).commit();
+        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frTab, OnlineFragment_.builder().build()).commit();
         initTextTab();
         mTab.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 switch (tab.getPosition()) {
                     case 0:
-                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frContainer, OnlineFragment_.builder().build()).commit();
-
+                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frTab, OnlineFragment_.builder().build()).commit();
                         break;
                     case 1:
-                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frContainer, OfflineFragment_.builder().build()).commit();
+                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frTab, OfflineFragment_.builder().build()).commit();
                         break;
                 }
             }

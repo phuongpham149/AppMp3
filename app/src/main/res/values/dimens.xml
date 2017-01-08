@@ -24,4 +24,11 @@
     <dimen name="tab_home_height">50dp</dimen>
     <dimen name="tab_home_divide">5dp</dimen>
     <dimen name="tab_home_text_size">13sp</dimen>
+    <dimen name="imageview_item_music_online_margin">10dp</dimen>
+    <dimen name="img_item_music_width">60dp</dimen>
+    <dimen name="img_item_music_height">60dp</dimen>
+    <dimen name="textview_item_music_padding">10dp</dimen>
+    <dimen name="textview_item_music_size">20sp</dimen>
+    <dimen name="textview_duration_item_music_margin_right">10dp</dimen>
+    <dimen name="textview_name_song_item_music">10dp</dimen>
 </resources>
